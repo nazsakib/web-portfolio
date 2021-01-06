@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(#e8eae6,#7c9473);
+}
+
+/* CONTENT AREA STARTS FROM HERE */
+
+.content {
+    padding: 5%;
+    overflow: hidden;
+}
+
+/* PROFILE ONE */
+
+.profile-one {
+    width: 100%;
+    margin: auto;
+}
+.color-text {
+    color: orange;
+}
+.left-part {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+.right-part {
+    overflow: hidden;
+    width: 40%;
+}
+.right-part img {
+    width: 80%;
+    margin-left: 5%;
+}
+.profile-one a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* PROFILE TWO */
+
+
+.profile-two {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.profile-two 
+.left-part {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+.profile-two
+.right-part {
+    overflow: hidden;
+}
+.profile-two
+.left-part img {
+    width: 80%;
+    padding-right: 2%;
+}
+.profile-two a {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+/* LATEST WORKING PROJECT AREA */
+
+
+.latest-work {
+    width: 60%;
+    padding: 10%;
+    margin: auto;
+    overflow: hidden;
+}
+.red-text {
+    color: red;
+}
+.working-project p {
+    font-size: 50px;
+    font-weight: strong;
+    text-align: center;
+}
+.image-one {
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    background-color: #f5f4f4;
+    margin: 1%;
+    border: 5px solid #f5f4f4;
+    border-radius: 9px;
+    
+}
+.image-one img {
+    width: 100%;
+}
+
+
+/* FOOTER AREA STARTS FROM HERE */
+.footer-area
+
+
+.work-enq {
+    text-align: center;
+    background-color: #c2c2c2;
+    background-image: url('images/group.png');
+    background-size: cover;
+    background-position:initial;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.work-enq p {
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 40px;
+}
+
+.footer-area a {
+    text-decoration: none;
+    overflow: hidden;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 20%;
+    color: white;
+}
+
+.footer-area ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    display: inline;
+    padding: 10px;
+}
+.footer-area img {
+    width: 3%;
+}
+.social-sites {
+    text-align: center;
+    padding: 40px 0;
+}
+.copyright {
+    text-align: center;
+    margin: 0;
+}
+.copyright p {
+    color: #c2c2c2;
+    font-size: 16px;
+    text-transform: capitalize;
+}
