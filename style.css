@@ -105,27 +105,39 @@ body {
     width: 100%;
 }
 
+/* work enquiry starts from here */
 
-/* FOOTER AREA STARTS FROM HERE */
-.footer-area
-
-
-.work-enq {
-    text-align: center;
-    background-color: #c2c2c2;
+.bg-image {
     background-image: url('images/group.png');
+    min-height: 200px;
+    background-position: center;
+    position: relative;
     background-size: cover;
-    background-position:initial;
-    padding: 50px 0;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    width: 100%;
 }
-
-.work-enq p {
+.container {
+    width: 60%;
+    margin: auto;
+}
+.container p {
     float: left;
-    width: 30%;
     color: white;
     font-size: 40px;
+    margin-top: 70px;
 }
+.container a {
+    float: right;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 75px;
+    color: white;
+}
+
+
+/* FOOTER AREA STARTS FROM HERE */
 
 .footer-area a {
     text-decoration: none;
