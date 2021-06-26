@@ -106,26 +106,64 @@ body {
 }
 
 
-/* FOOTER AREA STARTS FROM HERE */
-.footer-area
+/* WORK ENQUIRY AREA STARTS FROM HERE */
 
 
-.work-enq {
-    text-align: center;
+/* .work-enq {
     background-color: #c2c2c2;
     background-image: url('images/group.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position:initial;
     padding: 50px 0;
     overflow: hidden;
+    min-height: 200px;
+} */
+
+/* .work-enq {
+    margin: 20px 0;
 }
 
-.work-enq p {
+.image {
+    min-height: 150px;
+    padding: 10px;
+}
+
+.image img {
+    width: 100%;
+} */
+
+.bg-image {
+    background-image: url('images/group.png');
+    min-height: 200px;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+.container p {
     float: left;
-    width: 30%;
     color: white;
     font-size: 40px;
+    margin-top: 70px;
 }
+.container a {
+    float: right;
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 75px;
+    color: white;
+}
+
+
+/* FOOTER AREA STARTS FROM HERE */
 
 .footer-area a {
     text-decoration: none;
